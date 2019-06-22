@@ -1,0 +1,123 @@
+.between{
+
+    list-style: 20px;
+    background-color: rgb(117, 20, 20); 
+    height: 140px;
+    opacity: 0.8;
+}
+.between>ul>li{
+    display: inline-block;
+    position:relative ;
+}
+.between>ul>li>a{
+    text-decoration:none ;
+    font-size:larger ;
+    color:rgb(255, 255, 255) ;
+    padding:0px 10px;
+    line-height: 40px;
+    display: block;
+}
+
+    .between>ul>li>a:hover{
+        background-color: rgb(117, 20, 20);
+    }
+
+#signin{
+    position: absolute;
+    right: 0px; 
+    border-bottom-left-radius: 150px;
+    background-color:rgb(117, 20, 20); 
+    font-size: 20px;
+    line-height: 180%;
+    padding: 0 10px 0 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+aside{
+    min-height:600px; 
+    width:25%; 
+
+    float:right; 
+    }
+
+
+     
+    .between ul {
+        float: left;
+        
+    }
+     
+    .between ul li {
+        position: relative;
+        float: left;
+        margin: 0px;
+    }
+     
+    .between li a {
+        display: block;
+        color: rgb(255, 255, 255)    ;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase; 
+        padding: 10px 15px;
+    }
+     
+     
+    .between li ul{
+        background: rgb(117, 20, 20);
+        position: absolute;
+        display: none;
+        width: 200px;
+    }
+    .between li ul a:hover{
+        color: rgb(161, 161, 161);
+        text-decoration:none ;
+        padding:0px 10px;
+        line-height: 40px;
+        display: block;
+    }
+     
+    .between li:hover ul{
+        display: block;
+    }
+     
+     
+    .between li:hover > a{
+        background-color: rgb(117, 20, 20);
+    }
+
+    #signin a{
+        text-decoration-line: none;
+        color: white;
+        box-shadow: 0px 0px 5px white;
+    }
+
+    aside{
+        min-height:600px; 
+        width:25%; 
+    
+        float:right; 
+        }
+
+        footer{
+            border-top: 50px;
+            background-color: grey;
+            text-align: center;
+            clear: both;
+        }
+
+        article{
+            min-height: 1400px;
+            width: 73%;
+            float: left;
+            
+            color: white;
+        }
+
+article nav{
+    background-color: green;
+    color: white;
+    height: 50px;
+    
+}
